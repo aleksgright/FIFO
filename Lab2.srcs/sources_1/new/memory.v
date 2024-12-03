@@ -7,18 +7,21 @@ module memory #(parameter ADDR_WIDTH = 3, DATA_WIDTH = 8)(
     output reg [DATA_WIDTH-1:0] data_out
     );
     
-    reg i;
+    reg [ADDR_WIDTH+1:0] i;
     reg [DATA_WIDTH-1:0] mem [2**ADDR_WIDTH-1:0];
     
     always @(posedge clk, posedge reset)
         if(reset)
-            for (i=0; i<2**ADDR_WIDTH-1; i=i+1) begin
+            begin
+            for (i=0; i<2**ADDR_WIDTH; i=i+1) begin
                 mem[i] <= 0;
+            end
+            data_out <= 0;
             end
         else
             begin
                 if (write) mem[addr_wr] <= data_in;
-                if (read) data_out <= mem[addr_rd];
+                else if (read) data_out <= mem[addr_rd];
             end
     
 endmodule

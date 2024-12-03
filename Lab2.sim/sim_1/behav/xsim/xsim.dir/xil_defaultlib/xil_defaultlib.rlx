@@ -4,5 +4,9 @@ May 24 2019
 15:06:07
 C:/Studying/DigitalDesign/Lab2/Lab2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
 C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sim_1/new/counter_tb.v,1733156300,verilog,,,,counter_tb,,,,,,,,
-C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/counter.v,1733154072,verilog,,C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sim_1/new/counter_tb.v,,counter,,,,,,,,
-C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/memory.v,1733136414,verilog,,,,memory,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sim_1/new/fifo_tb.v,1733248119,verilog,,,,fifo_tb,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sim_1/new/memory_tb.v,1733248980,verilog,,,,memory_tb,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/counter.v,1733154072,verilog,,C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/fifo.v,,counter,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/fifo.v,1733251182,verilog,,C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/memory.v,,fifo,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/memory.v,1733242342,verilog,,C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/rs_trigger.v,,memory,,,,,,,,
+C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sources_1/new/rs_trigger.v,1733250981,verilog,,C:/Studying/DigitalDesign/Lab2/Lab2.srcs/sim_1/new/fifo_tb.v,,rs_trigger,,,,,,,,
